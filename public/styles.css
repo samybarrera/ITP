@@ -1,0 +1,103 @@
+img.imaa{
+	width: 45vh;
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+
+
+
+.featurette-divider {
+    margin: 4rem 0;
+}
+
+
+
+a:not([href]):not([tabindex]) {
+  
+    text-decoration: none;
+}
+
+
+.h1, h1 {
+    font-size: 2.5rem;
+    color: #3d6588;
+}
+
+p.pull-left{
+	font-family: 'Germania One', cursive;
+}
+a.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+.featurette-divider {
+    margin: 2rem 0;
+}
+
+.album {
+    min-height: 50rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    background-color: #17a2b8;
+}
+
+
+a.btn-primary {
+ 
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.carousel-inner{
+    height: 100vh;
+}
+
+
+//////// servicios
+
+.servicios{
+    max-width: 100vh;
+}
+
+
+///// Button Repositorios
+
+button#dropdownMenuButton.btn.btn-secondary.dropdown-toggle{
+	    
+
+}
+
+.btn-primary:hover {
+    color: transparent;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+a {
+    color: rgb(19, 108, 179);
+    font-family: 'PT Sans', sans-serif;
+}
+
+span.text-muted{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-dark {
+    /*background-color: #ffef00!important;*/
+}
+///////contacto
+a:not([href]):not([tabindex]) {
+    color: white;
+    text-decoration: none;
+}
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: white;
+    text-decoration: none;
+}
+
+/////contacto

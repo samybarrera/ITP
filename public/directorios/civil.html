@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+    <link rel="stylesheet" href="/styles/green.css">
+    <link rel="stylesheet" href="/styles/album.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">ITP</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <!-- Formulario 1 -->
+  
+  <section class="container mt-5 pt-5">
+    <h3 class="text-uppercase text-center">CONTACTO</h3>
+    <p class="lead text-center">El tiempo de respuesta entre nuestro servicio y usted esta a solo un Click.</p>
+
+    <div class="container">
+      <div><? echo $error.$mensajeExito; ?></div>
+      <form method="post">
+        <div class="form-group row">
+            <label for="nombre" class="col-sm-2 form-control-label">Nombre</label>
+            <div class="col-sm-10">
+              <input class="form-control" id="nombre" placeholder="Escribe tu nombre" type="text" name="nombre">
+            </div>
+        </div>
+        <div class="form-group row">
+          <label for="email" class="col-sm-2 form-control-label">Email</label>
+          <div class="col-sm-10">
+            <input class="form-control" id="email" placeholder="Escribe tu e-mail" type="email" name="email">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="asunto" class="col-sm-2 form-control-label">Asunto</label>
+          <div class="col-sm-10">
+            <input class="form-control" id="asunto" placeholder="Asunto del correo" type="text" name="asunto">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="mensaje" class="col-sm-2 form-control-label">Mensaje</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" id="mensaje" rows="3" placeholder="¿Qué quieres preguntar?" name="mensaje"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-warning offset-2">Enviar</button>
+        </div>
+      </form>
+    </div>
+
+  </section>
+
+  <!-- fin Formulario 1 -->
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----  nav Bar  -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
+      <a class="navbar-brand" href="#"><img class="imaa" src="/images/LITP.png" alt="" ></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#inicio">Ingenieria Civil</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<!--  fin nav Bar -->
+
+     <hr class="featurette-divider">
+
+      <div class="row featurette" id="inge">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">REPOSITORIOS. <span class="text-muted">ITP </span></h2>
+          
+          <ul><a href="">Diseño Industrial</a></ul>
+          <ul><a href="">Civil</a></ul>
+          <ul><a href="">Electrica</a></ul>
+          <ul><a href="">Industrial</a></ul>
+          <ul><a href="">Mecanica</a></ul>
+          <ul><a href="">Quimica</a></ul>
+          <ul><a href="">Sistemas Computacionales</a></ul>
+          <ul><a href="">Tecnologias de la informacion y comunicaciones</a></ul>
+          <ul><a href="">En gestion empresarial</a></ul>
+
+            
+          </li>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="imaged/civil.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+
+
+
+
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+
+
+    -->
+
+
+
+
+      <hr class="featurette-divider">
+
+
+
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+      
+        <p class="float-right"><a href="https://www.facebook.com/Servtras">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-facebook-official fa-stack-1x fa-inverse"></i>
+        </span></a></p>
+        <p class="pull-left">&copy; 2017 RepositriosITP. Todos los derechos reservados.</p><br>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
