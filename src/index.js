@@ -1,8 +1,16 @@
+//dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import firebase from 'firebase';
+
+//Roules
+import AppRoutes from './routes';
+
+//assets
 import './index.css';
-import App from './App';
+import App from './components/App';
+
 
 firebase.initializeApp({
 	apiKey: "AIzaSyDAlxEtF1GJETWpbjiyvWr9Wi6ty-b_qRs",
@@ -17,4 +25,12 @@ ReactDOM.render(
   <App />, 
   document.getElementById('root')
  );
+
+ReactDOM.render(
+  <Router>
+    <AppRoutes />
+  </Router>, 
+  document.getElementById('con')
+ );
+
 

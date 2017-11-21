@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import firebase from 'firebase';
 
-import './App.css';
+import './css/Header.css';
 
-class App extends Component {
+class Header extends Component {
 
   constructor () {
     super();
@@ -47,7 +47,8 @@ class App extends Component {
 
         <div>
         <img width="100" src={this.state.user.photoURL} alt={this.state.user.displayName} />
-        <p>Hola {this.state.user.displayName}!</p>
+        <p>BIENVENIDO </p>
+        <p> {this.state.user.displayName}!</p>
         <button onClick={this.handleLogout}>Salir</button>
         </div>
 
@@ -68,19 +69,19 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="Header">
         <div className="App-header">
           
-          <h2>ITP REGISTRO</h2>
+          <h2>ITP REGISTRO <img src="./images/LITP.ico" className="App-logo" alt="ITP" /></h2>
 
           <p className="App-intro">
             {this.renderLoginButton()}
+
          </p>
+         
           
         </div>
-        <div className="App-header2">
-        <img src="public/LITP.ico" className="App-logo" alt="ITP" />
-        </div>
+        
          
       </div>
     );
@@ -88,4 +89,4 @@ class App extends Component {
 }  
 
 
-export default App;
+export default Header;

@@ -1,0 +1,35 @@
+*{
+	
+	margin: o auto;
+}
+
+.Barra {
+
+
+  text-align: center;
+  background-color: #222;
+  
+  background-repeat: no-repeat;
+
+  max-width: 100%;
+
+
+  padding: 50px;
+  color: white;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+.menu li {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.menu li a {
+	text-decoration: none;
+}

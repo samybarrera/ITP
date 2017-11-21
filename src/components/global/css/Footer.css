@@ -1,0 +1,14 @@
+*{
+	margin: o auto;
+}
+
+.Footer{
+
+	background-color: #222;
+	text-align: center;
+	height: 20vh;
+}
+
+.Footer p{
+	color: #fff;
+}
