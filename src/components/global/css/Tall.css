@@ -1,0 +1,24 @@
+.Tall {
+	
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+
+
+.Tall-img {
+
+	text-align: right;
+
+
+	width: 30%;
+
+
+}
+
+.Tall-p {
+	text-align: center;
+	width: 55%;
+}
