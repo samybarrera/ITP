@@ -11,22 +11,23 @@ class Barra extends Component {
 
 	static propTypes = {
 		title: PropTypes.string.isRequired,
-		items: PropTypes.string.isRequired
+		items: PropTypes.string.isRequired,
+    classe: PropTypes.string.isRequired
 	};
 
   render() {
-  	const {title, items} = this.props;
+  	const {title, classe, items} = this.props;
 
 
     return (
       <div className="Barra">
         
-        <h2>{title}</h2>
+        <h2>{title} <span><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span></h2>
 
         <ul className="menu">
         	{
             items && items.map(
-              (item, key) => <li key={key}><Link to={item.url}>{item.title}</Link></li>
+              (item, key) => <li key={key}><Link to={item.url}><span><i class={classe} aria-hidden="true"></i></span>{item.title}</Link></li>
               )
           }
         </ul>

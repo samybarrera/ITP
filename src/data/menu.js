@@ -1,7 +1,8 @@
 export default [
   {
   	title: 'HOME',
-  	url: '/'
+  	url: '/',
+    classe: 'fa fa-file-pdf-o'
   },
   {
   	title: 'INGENIERIA',

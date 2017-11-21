@@ -49,7 +49,7 @@ class Header extends Component {
         <img width="100" src={this.state.user.photoURL} alt={this.state.user.displayName} />
         <p>BIENVENIDO </p>
         <p> {this.state.user.displayName}!</p>
-        <button onClick={this.handleLogout}>Salir</button>
+        <button onClick={this.handleLogout}>Salir  <span><i class="fa fa-sign-out" aria-hidden="true"></i></span></button>
         </div>
 
         );
@@ -57,7 +57,7 @@ class Header extends Component {
 
       return(
 
-      <button onClick={this.handleAuth}>login con google</button>
+      <button onClick={this.handleAuth}><span><i class="fa fa-sign-in fa-2x" aria-hidden="true"></i></span>  login con google</button>
 
       );
 
